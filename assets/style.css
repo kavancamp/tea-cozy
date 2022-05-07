@@ -1,0 +1,24 @@
+body {
+    color: seashell;
+    background-color: black;
+}
+.container {
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 0.5px solid;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: italic;
+    opacity: 0.9;
+}
+ul li {
+    display: inline;
+    text-decoration: underline;
+    padding: 1px;
+}
