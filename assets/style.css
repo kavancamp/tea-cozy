@@ -1,21 +1,24 @@
 body {
     color: seashell;
     background-color: black;
+    font-family: Helvetica;
 }
 .container {
     padding: 10px;
+    display: flex;
+    position: center;
+   
 }
 nav {
     display: flex;
     justify-content: space-between;
-    height: 69px;
-    border-bottom: 0.5px solid;
-}
-h1 {
-    font-family: Helvetica;
+  
+    border-bottom: 0.5px solid; 
     font-size: 22px;
-    font-style: italic;
+}
+.logo {
     opacity: 0.9;
+    max-height: 69px;
 }
 ul li {
     display: inline;
@@ -30,13 +33,11 @@ ul li {
     justify-content: center;
     
 }
-.mission{
-    flex-direction: row;
+.mission {
     background: black;
     position: relative;
-    right:50%; 
-    height: 100px;
-    
+    right: 50%; 
+
 }
 .bkg-img {
    height: 700px; 
