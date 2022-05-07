@@ -22,6 +22,16 @@ ul li {
     text-decoration: underline;
     padding: 1px;
 }
-.backimg {
-    height: 700px;
+/* Main Image*/
+
+.photo-overlay {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title {
+    justify-content: center;
+}
+.background-image {
+   height: 700px;
 }
